@@ -14,7 +14,7 @@ sqllite性能不能和mysql相对，这个用于**小型项目**低并发的场�
 
 # 部署
 
-下载可执行代码包
+下载[可执行代码包](https://github.com/AndsGo/xxl-job-sqllite/releases/download/2.3.1/xxl-job-admin-sqllite-2.3.1.jar)
 
 运行
 
