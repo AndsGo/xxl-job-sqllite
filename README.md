@@ -89,6 +89,15 @@ java -jar xxl-job-admin-sqllite-2.3.1.jar
 ```java
 xxlJobRegistryDao.findAll(DateUtil.addSecond(new Date(),-RegistryConfig.DEAD_TIMEOUT))
 ```
+### sql连接配置修改
+application.porperties
+```
+### xxl-job, datasource
+spring.datasource.url=jdbc:sqlite:./xxl-job.sqlite?date_string_format=yyyy-MM-dd HH:mm:ss
+spring.datasource.username=
+spring.datasource.password=
+spring.datasource.driver-class-name=org.sqlite.JDBC
+```
 
 ### sql脚本转换
 
